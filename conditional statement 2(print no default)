@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+   int x;
+   printf("enter a number:");
+       scanf("%d",&x);
+       
+   switch (x)
+   {
+       
+       case 1: printf("Choice is 1");
+               break;
+       case 2: printf("Choice is 2");
+                break;
+       case 3: printf("Choice is 3");
+               break;
+        case 4: printf("choice is 4");
+               break;
+       default: printf("NO");
+                break; 
+   }
+   return 0;
+}
